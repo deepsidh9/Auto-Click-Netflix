@@ -1,13 +1,12 @@
 {
     "manifest_version": 2,
-    "name": "Skip Netflix intro",
+    "name": "Skip Netflix intro , play next episode automatically",
     "permissions": [
         "webNavigation",
         "tabs",
         "<all_urls>",
-        "storage"
     ],
-    "version": "0.1",
+    "version": "0.0.1",
     "background": {
         "scripts": [
             "background.js"
